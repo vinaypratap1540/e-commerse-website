@@ -1,0 +1,48 @@
+.pI{
+    display: grid;
+    grid-template-columns: auto auto;
+    img{
+        margin-top: 50px;
+        margin-bottom: 50px;
+        margin-left: 50px;
+        height: 550px;
+        object-fit: cover;
+    }
+    .range{
+        h2{
+            margin-top: 100px;
+            margin-right: 800px;
+        }
+        .quantity{
+            margin: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 250px;
+            height: 60px;
+            background-color: rgb(232, 232, 232);
+            p{
+                display: flex;
+                margin-top: 20px;
+            }
+            button{
+                align-items: center;
+                border: none;
+                cursor: pointer;
+                margin: 20px;
+                &:hover{
+                    background-color: rgb(93, 93, 93);
+                }
+            }
+            .but{
+                display: flex;
+                margin-left: 20px;
+                margin-top: 20px;
+            }
+            span{
+                margin-top: 20px;
+            }
+        }
+    }
+    
+}

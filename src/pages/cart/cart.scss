@@ -1,0 +1,45 @@
+.itemCart{
+    img{
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+    }
+    .total{
+        display: flex;
+        .cartItem{
+            width: 67%;
+            padding: 60px; 
+            margin: 50px;
+         }
+         .cartTotal{
+            background-color: rgba(219, 219, 219, 0.437);
+            border-radius: 40px;
+            padding: 60px;
+            margin: 50px;
+            width: 33%;
+            
+            .sub{
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+                border-bottom: 1px solid gray; 
+            }
+         }
+         button{
+            margin-top: 40px;
+            width: 300px;
+            height: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: black;
+            color: white;
+            cursor: pointer;
+            &:hover{
+                transition: 0.2s;
+                animation: ease-in-out;
+                background-color: gray;
+            }
+         }
+    }
+}

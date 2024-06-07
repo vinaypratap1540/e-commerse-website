@@ -25,7 +25,7 @@ const Product = ({products}) => {
           dolores nulla ipsum amet nemo commodi nostrum numquam quasi dolorum?
           Vel autem aspernatur deserunt perferendis deleniti optio alias facilis
           eos fugit eaque. Tempore, tenetur officiis. Laudantium impedit magni
-          doloribus eaque delectus.
+          doloribus eaque delectus.jai shree Ram.
         </p>
       </div>
       <div style={{display:"grid",gridTemplateColumns:"auto auto auto auto ",gap:'10px',padding:'10px'}}>
